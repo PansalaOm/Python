@@ -1,0 +1,39 @@
+## Python Data types Mutable and UnMutable 
+
+
+
+#Mutable all like List,seat <disteray and More 
+inmutabl 
+interger ,tuple ,blooean,string , and More 
+
+
+#memory ma how to wok the list like memory 
+
+-l1 = [1,2,3]
+l2 =l1
+same memory reffrence assign 
+
+l1[0]= 33
+print(l1)
+[33,2,3]
+print(l2)
+[33,2,3]
+
+why same out put memory reffrnce as same hot hai 
+
+but upper code ma 
+l2 = [1,2,3]
+
+badme l1 ko chnge hota to l2 change nnahi hogaa dona ka memory reffrence diffrent ho jayega 
+
+is leya Python ma merrey refrence main hai 
+
+chaeka kaena ka leya l1 is l2 
+
+more 
+
+like a = 2
+a = a+2
+memory ma phale 2 ka value asign hoga and badme 
+new value refrence +2 add hokea r new memory reffrence cret hoga nad vo a koassign hoga 
+phal vala 2 value garbage caluctare ma remove hoga 
